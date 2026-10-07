@@ -33,7 +33,7 @@
     body {
       font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
       background-color: var(--bg);
-      background-image: url('bg.jpg');
+      background-image: url('assets/bg.jpg');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -263,6 +263,33 @@
       color: var(--accent-dark);
     }
 
+    .recipe-note a {
+      color: var(--accent-dark);
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      transition: color 0.2s ease;
+    }
+
+    .recipe-note a:hover {
+      color: var(--accent);
+    }
+
+    .salt-link {
+      display: inline-block;
+      margin-left: 6px;
+      font-size: 0.85rem;
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+
+    .salt-link:hover {
+      color: var(--accent-dark);
+    }
+
     /* Footer Sederhana */
     .recipe-footer {
       text-align: center;
@@ -379,7 +406,7 @@
                 <li>3 butir telur ayam, suhu ruang</li>
                 <li>150 gr gula pasir</li>
                 <li>200 ml santan kental (dari 1 butir kelapa segar)</li>
-                <li>1/2 sdt garam</li>
+                <li>1/2 sdt garam <a href="kurang_garam.html?resep=kue_keukarah#kue_keukarah" class="salt-link">(Kurang Garam?)</a></li>
                 <li>1/2 sdt vanili bubuk</li>
               </ul>
             </div>
@@ -467,6 +494,10 @@
             <strong>Tips:</strong> Cetakan harus selalu dipanaskan kembali di dalam minyak setiap kali
             sebelum mencetak. Suhu minyak yang stabil di 170–180°C adalah kunci utama agar keukarah
             renyah sempurna dan tidak menyerap minyak berlebih.
+          </div>
+
+          <div class="recipe-note" style="margin-top: 14px;">
+            <strong>Tips Kurang Garam:</strong> Ingin adonan kue dengan takaran garam lebih rendah? Simak panduan lengkap pada <a href="kurang_garam.html?resep=kue_keukarah#kue_keukarah">Resep Kurang Garam &rarr;</a>
           </div>
 
         </section>

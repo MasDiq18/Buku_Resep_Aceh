@@ -3,11 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Resep Mie Aceh - Kurang Garam</title>
+<title>Resep Masakan Aceh - Kurang Garam</title>
 <style>
 body {
     font-family: Arial, sans-serif;
-    background: #e5d9c8;
+    background-color: #e5d9c8;
+    background-image: url('assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: #262626;
     padding: 30px;
 }
@@ -23,6 +28,10 @@ h1 {
     text-align: center;
     color: #8c532b;
 }
+h2 {
+    color: #8c532b;
+    margin-top: 22px;
+}
 .recipe {
     line-height: 1.7;
 }
@@ -36,43 +45,161 @@ a {
     color: #63381a;
     font-weight: bold;
 }
+.recipe-section {
+    display: none;
+}
+.recipe-section.active {
+    display: block;
+}
 </style>
 </head>
 <body>
 <div class="container">
-    <h1>Resep Mie Aceh (Kurang Garam)</h1>
 
-    <div class="recipe">
-        <p>
-            Hidangan Mie Aceh dengan penyesuaian rasa yang lebih sehat.
-            Resep ini dibuat dengan mengurangi penggunaan garam tanpa
-            menghilangkan cita rasa khas rempah Aceh.
-        </p>
+    <!-- Resep Mie Aceh (Kurang Garam) -->
+    <div id="section-mie-aceh" class="recipe-section active">
+        <h1>Resep Mie Aceh (Kurang Garam)</h1>
 
-        <h2>Keterangan Perubahan Resep</h2>
-        <ul>
-            <li>Kurangi garam satu sendok teh pada setiap resep.</li>
-            <li>Gunakan rempah alami seperti bawang, kari, cabai, dan merica
-                untuk mempertahankan rasa gurih.</li>
-            <li>Lakukan koreksi rasa secara bertahap agar makanan tetap seimbang.</li>
-        </ul>
+        <div class="recipe">
+            <p>
+                Hidangan Mie Aceh dengan penyesuaian rasa yang lebih sehat.
+                Resep ini dibuat dengan mengurangi penggunaan garam tanpa
+                menghilangkan cita rasa khas rempah Aceh.
+            </p>
 
-        <h2>Bahan yang Disesuaikan</h2>
-        <ul>
-            <li>Garam dikurangi 1 sendok teh dari takaran resep asli.</li>
-            <li>Kecap asin dapat digunakan secukupnya karena sudah mengandung natrium.</li>
-            <li>Kaldu jamur digunakan secukupnya sebagai penguat rasa.</li>
-        </ul>
+            <h2>Keterangan Perubahan Resep</h2>
+            <ul>
+                <li>Kurangi garam satu sendok teh pada takaran bumbu halus.</li>
+                <li>Gunakan rempah alami seperti bawang, kari, cabai, dan merica
+                    untuk mempertahankan rasa gurih alami.</li>
+                <li>Lakukan koreksi rasa secara bertahap agar makanan tetap seimbang.</li>
+            </ul>
 
-        <div class="note">
-            <strong>Catatan:</strong>
-            Pengurangan garam dilakukan untuk menghasilkan resep dengan kandungan
-            natrium lebih rendah tetapi tetap mempertahankan karakter rasa asli.
+            <h2>Bahan yang Disesuaikan</h2>
+            <ul>
+                <li>Garam dikurangi 1 sendok teh dari takaran resep asli.</li>
+                <li>Kecap asin dapat digunakan secukupnya karena sudah mengandung natrium.</li>
+                <li>Kaldu jamur digunakan secukupnya sebagai penguat rasa alami.</li>
+                <li>Tambahkan perasan jeruk nipis dan tomat segar untuk penyeimbang kesegaran.</li>
+            </ul>
+
+            <div class="note">
+                <strong>Catatan:</strong>
+                Pengurangan garam dilakukan untuk menghasilkan resep Mie Aceh dengan kandungan
+                natrium lebih rendah tetapi tetap mempertahankan karakter rasa asli yang kaya rempah.
+            </div>
         </div>
+
+        <br>
+        <a href="mie_aceh.html">&larr; Kembali ke Resep Mie Aceh</a> &nbsp;|&nbsp;
+        <a href="index.html">Kembali ke Menu Utama</a>
     </div>
 
-    <br>
-    <a href="index.html">Kembali ke Resep Utama</a>
+    <!-- Resep Kue Keukarah (Kurang Garam) -->
+    <div id="section-kue-keukarah" class="recipe-section">
+        <h1>Resep Kue Keukarah (Kurang Garam)</h1>
+
+        <div class="recipe">
+            <p>
+                Kue tradisional Keukarah dengan penyesuaian takaran garam yang lebih rendah.
+                Resep ini dibuat untuk menghasilkan camilan renyah khas Aceh yang lebih sehat
+                tanpa mengurangi keharuman pandan dan gurihnya santan kelapa.
+            </p>
+
+            <h2>Keterangan Perubahan Resep</h2>
+            <ul>
+                <li>Garam dikurangi dari 1/2 sendok teh menjadi hanya sejumput kecil (seujung sdt) sebagai penyeimbang adonan.</li>
+                <li>Maksimalkan perebusan daun pandan dalam santan kelapa segar untuk menghasilkan aroma harum alami.</li>
+                <li>Pertahankan suhu minyak pada 170–180°C agar kue renyah sempurna tanpa menyerap minyak berlebih.</li>
+            </ul>
+
+            <h2>Bahan yang Disesuaikan</h2>
+            <ul>
+                <li>Garam dikurangi menjadi sejumput kecil saja (dari takaran asli 1/2 sdt).</li>
+                <li>Gunakan santan murni dari kelapa segar berkualitas untuk cita rasa gurih alami.</li>
+                <li>Daun pandan digunakan maksimal saat merebus santan untuk aroma harum alami pengganti garam.</li>
+            </ul>
+
+            <div class="note">
+                <strong>Catatan:</strong>
+                Pada kue tradisional manis-gurih seperti Keukarah, fungsi garam hanyalah pengikat rasa gurih santan.
+                Menguranginya menjadi sejumput kecil tetap menghasilkan keukarah yang renyah dan nikmat.
+            </div>
+        </div>
+
+        <br>
+        <a href="kue_keukarah.html">&larr; Kembali ke Resep Kue Keukarah</a> &nbsp;|&nbsp;
+        <a href="index.html">Kembali ke Menu Utama</a>
+    </div>
+
+    <!-- Resep Kuah Beulangong (Kurang Garam) -->
+    <div id="section-kuah-beulangong" class="recipe-section">
+        <h1>Resep Kuah Beulangong (Kurang Garam)</h1>
+
+        <div class="recipe">
+            <p>
+                Kuah Beulangong kaya rempah dengan penyesuaian takaran garam yang lebih rendah.
+                Menghasilkan sajian kari daging dan nangka muda khas Aceh yang lebih ramah kesehatan
+                namun tetap mempertahankan rasa gurih pekat dan aroma rempah yang semerbak.
+            </p>
+
+            <h2>Keterangan Perubahan Resep</h2>
+            <ul>
+                <li>Kurangi penggunaan garam hingga separuh takaran saat proses koreksi rasa.</li>
+                <li>Masak daging dan nangka muda secara perlahan agar sari kaldu alami keluar maksimal ke dalam kuah.</li>
+                <li>Perkaya bumbu rempah aromatik seperti serai, daun jeruk, daun salam, kemiri, dan jahe.</li>
+            </ul>
+
+            <h2>Bahan yang Disesuaikan</h2>
+            <ul>
+                <li>Garam dikurangi separuh dari takaran biasa saat koreksi rasa.</li>
+                <li>Bumbu rempah aromatik (serai, daun salam, daun jeruk) dioptimalkan untuk memperkuat aroma.</li>
+                <li>Rebusan kaldu daging dimaksimalkan sebagai sumber rasa gurih (umami) alami pengganti garam.</li>
+            </ul>
+
+            <div class="note">
+                <strong>Catatan:</strong>
+                Kuah Beulangong memiliki keunggulan rempah yang sangat melimpah. Memasak perlahan hingga bumbu
+                meresap sempurna membuat kuah tetap terasa gurih dan mantap walau dengan penggunaan garam yang minimal.
+            </div>
+        </div>
+
+        <br>
+        <a href="faris.html">&larr; Kembali ke Resep Kuah Beulangong</a> &nbsp;|&nbsp;
+        <a href="index.html">Kembali ke Menu Utama</a>
+    </div>
+
 </div>
+
+<script>
+function updateRecipeDisplay() {
+    var params = new URLSearchParams(window.location.search);
+    var resep = params.get('resep') || window.location.hash.replace('#', '') || 'mie_aceh';
+    resep = resep.toLowerCase().replace('-', '_');
+
+    var sectionMie = document.getElementById('section-mie-aceh');
+    var sectionKarah = document.getElementById('section-kue-keukarah');
+    var sectionKuah = document.getElementById('section-kuah-beulangong');
+
+    // Sembunyikan semua
+    sectionMie.classList.remove('active');
+    sectionKarah.classList.remove('active');
+    sectionKuah.classList.remove('active');
+
+    if (resep === 'kue_keukarah' || resep === 'kue_karah') {
+        sectionKarah.classList.add('active');
+        document.title = 'Resep Kue Keukarah - Kurang Garam';
+    } else if (resep === 'kuah_beulangong' || resep === 'beulangong' || resep === 'faris') {
+        sectionKuah.classList.add('active');
+        document.title = 'Resep Kuah Beulangong - Kurang Garam';
+    } else {
+        sectionMie.classList.add('active');
+        document.title = 'Resep Mie Aceh - Kurang Garam';
+    }
+}
+
+window.addEventListener('DOMContentLoaded', updateRecipeDisplay);
+window.addEventListener('hashchange', updateRecipeDisplay);
+</script>
 </body>
 </html>

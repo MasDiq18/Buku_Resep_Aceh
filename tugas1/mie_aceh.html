@@ -33,7 +33,7 @@
     body {
       font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
       background-color: var(--bg);
-      background-image: url('bg.jpg');
+      background-image: url('assets/bg.jpg');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -263,6 +263,33 @@
       color: var(--accent-dark);
     }
 
+    .recipe-note a {
+      color: var(--accent-dark);
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      transition: color 0.2s ease;
+    }
+
+    .recipe-note a:hover {
+      color: var(--accent);
+    }
+
+    .salt-link {
+      display: inline-block;
+      margin-left: 6px;
+      font-size: 0.85rem;
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+
+    .salt-link:hover {
+      color: var(--accent-dark);
+    }
+
     /* Footer Sederhana */
     .recipe-footer {
       text-align: center;
@@ -372,7 +399,7 @@
                 <li>4 siung bawang merah, iris tipis</li>
                 <li>1 sdm kecap asin</li>
                 <li>2 sdm kecap manis</li>
-                <li>Garam secukupnya</li>
+                <li>Garam secukupnya <a href="kurang_garam.html?resep=mie_aceh#mie_aceh" class="salt-link">(Kurang Garam?)</a></li>
                 <li>Kaldu jamur secukupnya</li>
                 <li>2 sdm minyak untuk menumis</li>
               </ul>
@@ -388,7 +415,7 @@
                 <li>2 buah kapulaga</li>
                 <li>1/4 sdt adas manis</li>
                 <li>1/2 sdt merica butir</li>
-                <li>1 sdt garam</li>
+                <li>1 sdt garam <a href="kurang_garam.html?resep=mie_aceh#mie_aceh" class="salt-link">(Kurang Garam?)</a></li>
                 <li>1 sdm minyak untuk menghaluskan bumbu</li>
               </ul>
             </div>
@@ -459,6 +486,10 @@
           <div class="recipe-note">
             <strong>Catatan:</strong> Jika menginginkan tekstur <em>nyemek</em> (sedikit basah), tambahkan sekitar 150
             ml kaldu sapi saat menumis bumbu sebelum memasukkan mie.
+          </div>
+
+          <div class="recipe-note" style="margin-top: 14px;">
+            <strong>Tips Kurang Garam:</strong> Untuk versi yang lebih sehat dengan takaran garam lebih rendah, silakan ikuti <a href="kurang_garam.html?resep=mie_aceh#mie_aceh">panduan resep kurang garam di sini &rarr;</a>
           </div>
 
         </section>
